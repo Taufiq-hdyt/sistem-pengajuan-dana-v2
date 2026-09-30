@@ -1,0 +1,13 @@
+# Kredensial database — beda antara local dan hosting, jangan pernah di-commit
+config/koneksi.php
+
+# File yang diupload user (nota, bukti transfer, dsb) — data runtime, bukan source code
+uploads/*
+!uploads/.gitkeep
+
+# File sistem OS
+.DS_Store
+Thumbs.db
+
+# Log/error file kalau ada
+*.log
