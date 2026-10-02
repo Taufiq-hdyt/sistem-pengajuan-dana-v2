@@ -1,6 +1,9 @@
 # Kredensial database — beda antara local dan hosting, jangan pernah di-commit
 config/koneksi.php
 
+# Kredensial API email (Brevo) — jangan pernah di-commit
+config/email_config.php
+
 # File yang diupload user (nota, bukti transfer, dsb) — data runtime, bukan source code
 uploads/*
 !uploads/.gitkeep
@@ -11,3 +14,6 @@ Thumbs.db
 
 # Log/error file kalau ada
 *.log
+
+# Dump database kalau disimpan di folder project
+*.sql
